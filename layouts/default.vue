@@ -17,7 +17,7 @@ export default {
   }
 }
 </script>
-<style>
+<style lang="scss">
 :root {
   --primary-color: #052D46;
   --secondary-color: #626E75;
@@ -42,5 +42,16 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+.btn {
+  background: var(--pink);
+  color: #ffffff;
+  padding: 1.5rem 3.6rem;
+  border: 1px solid var(--pink);
+  cursor: pointer;
+  &:not(:disabled):hover {
+    color: var(--pink);
+    background-color: #ffffff;
+  }
 }
 </style>

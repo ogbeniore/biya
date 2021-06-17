@@ -1,11 +1,20 @@
 <template>
   <main>
-    Hello bitches
+    <Bills />
+    <Questions />
   </main>
 </template>
 
 <script>
-export default {}
+import Questions from '@/components/Homepage/Questions.vue'
+import Bills from '@/components/Homepage/Bills.vue'
+export default {
+  name: 'Homepage',
+  components: {
+    Questions,
+    Bills
+  }
+}
 </script>
 
 <style lang="scss">

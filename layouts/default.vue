@@ -53,5 +53,9 @@ html {
     color: var(--pink);
     background-color: #ffffff;
   }
+  &__outline {
+    background: transparent;
+    color: var(--pink);
+  }
 }
 </style>

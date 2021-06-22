@@ -1,12 +1,17 @@
 <template>
-  <section class="bills">
-    <div class="bills__media">
-      <img src="@/assets/bills.png" alt="Pay bills screenshot">
+  <section class="mobile-money">
+    <div class="mobile-money__media">
+      <img src="@/assets/mobile-money.png" alt="Woman holding phone">
     </div>
-    <article class="bills__text">
-      <h3>Pay bills without stress</h3>
-      <p>No need to go to a physical office or join a long queue before all your bills are paid. Join the smartest community of Biya and pay all bills simply by chatting. It is easy and stress free.</p>
-      <button class="btn">
+    <article class="mobile-money__text">
+      <h3>You mobile recharge and bills are just one message away.</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget, donec ut accumsan nibh turpis massa facilisis pellentesque amet.
+        <br>
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget, donec ut accumsan nibh turpis massa facilisis pellentesque amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget, donec ut accumsan nibh turpis massa facilisis pellentesque amet.
+      </p>
+      <button class="btn btn__outline">
         Get Started
       </button>
     </article>
@@ -14,10 +19,8 @@
 </template>
 
 <style lang="scss" scoped>
-.bills {
-  background: #FFF8FA;
-  max-width: 130rem;
-  padding: 10rem 7.2rem 0 7.2rem;
+.mobile-money {
+  max-width: 110rem;
   margin: 10rem auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -47,12 +50,11 @@
   }
   @media screen and (max-width: 769px) {
     grid-template-columns: 1fr;
-    padding: 4.8rem 3.2rem 0 3.2rem;
     margin: 0 auto;
+    margin-bottom: 10rem;
+    padding: 0 3.2rem;
     &__media {
-      grid-row: 2/3;
-      max-height: 400px;
-      margin: 0 auto;
+      display: none;
     }
     &__text {
       text-align: center;

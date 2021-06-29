@@ -13,7 +13,7 @@
 .nav {
   max-width: 130rem;
   margin: 0 auto;
-  padding: 6rem 2rem;
+  padding: 6rem 2rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

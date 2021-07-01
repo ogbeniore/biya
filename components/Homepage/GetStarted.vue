@@ -114,9 +114,15 @@
     flex-direction: column;
     &__title {
       text-align: center;
+      margin: 0 auto;
       h3 {
         font-size: 2.8rem;
       }
+    }
+    &__grid {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 auto;
+      align-items: center;
     }
   }
 }

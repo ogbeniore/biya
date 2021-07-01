@@ -105,6 +105,10 @@
         font-size: 2.8rem;
       }
     }
+    .socials {
+      text-align: center;
+      margin-top: 2rem;
+    }
   }
 }
 </style>

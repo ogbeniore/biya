@@ -121,6 +121,7 @@
     }
   }
   @media screen and (max-width: 769px) {
+    padding: 0 2rem;
     &__title {
       h3 {
         font-size: 2.8rem;
@@ -129,6 +130,7 @@
     &__grid {
       grid-template-columns: 1fr;
       grid-row-gap: 2rem;
+      text-align: center;
     }
   }
 }

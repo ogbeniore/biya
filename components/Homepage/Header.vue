@@ -91,6 +91,17 @@ export default {
       height: auto;
     }
   }
+  @media screen and (max-width: 769px) {
+    min-height: 60rem;
+    &-image {
+      display: none;
+    }
+    &-content {
+      br {
+        display: none;
+      }
+    }
+  }
 }
 @keyframes sliiiider {
   0% {

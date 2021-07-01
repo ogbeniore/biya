@@ -17,6 +17,9 @@
         Get Started
       </button>
     </div>
+    <div class="header-image">
+      <img src="@/assets/hero-image.png" alt="Biya User">
+    </div>
   </header>
 </template>
 
@@ -44,6 +47,7 @@ export default {
   min-height: 70rem;
   align-items: center;
   display: flex;
+  justify-content: space-between;
   &-content {
     max-width: 57rem;
     h1 {
@@ -73,6 +77,18 @@ export default {
           animation: sliiiider ease-in-out 2s infinite alternate-reverse;
         }
       }
+    }
+  }
+  &-image {
+    width: 50rem;
+    height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    img {
+      margin: auto;
+      width: 100%;
+      height: auto;
     }
   }
 }

@@ -101,6 +101,7 @@
       font-size: 1.6rem;
       letter-spacing: 0.005em;
       margin-bottom: 4rem;
+
       line-height: 170%;
     }
   }

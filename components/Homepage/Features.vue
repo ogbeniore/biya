@@ -88,6 +88,7 @@
     background-position: bottom right;
   }
   &__content {
+
     max-width: 65rem;
     h3 {
       color: var(--primary-color);

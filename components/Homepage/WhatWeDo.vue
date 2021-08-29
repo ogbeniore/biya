@@ -29,7 +29,7 @@
         <h5>
           Pay Bills
         </h5>
-        <p>Pay your DSTv, GOTv, Smile and Electricity bills with many more coming soon.</p>
+        <p>Pay your DSTv, GOTv, Smile and Electricity bills and many more.</p>
       </article>
       <article class="what-we-do__item">
         <span class="what-we-do__item--icon">
@@ -42,7 +42,7 @@
         <h5>
           Transfer Funds
         </h5>
-        <p>Transfer money from your bank account to any bank account in Nigeria. Coming Soon</p>
+        <p>Transfer money from your bank account to any bank account in Nigeria. <span class="text-pink">Coming soon</span></p>
       </article>
       <article class="what-we-do__item">
         <span class="what-we-do__item--icon green">
@@ -55,7 +55,7 @@
         <h5>
           Tap2Pay
         </h5>
-        <p>Forgot your wallet or your ATM card? Pay with Biya at physical locations. Coming Soon</p>
+        <p>Forgot your wallet or your ATM card? Pay with Biya at physical locations.  <span class="text-pink">Coming soon</span>.</p>
       </article>
     </div>
   </section>
@@ -133,5 +133,9 @@
       text-align: center;
     }
   }
+}
+.text-pink {
+  color: var(--pink);
+  font-weight: 500;
 }
 </style>

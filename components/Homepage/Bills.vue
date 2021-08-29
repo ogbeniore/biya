@@ -6,12 +6,22 @@
     <article class="bills__text">
       <h3>Pay bills without stress</h3>
       <p>No need to go to a physical office or join a long queue before all your bills are paid. Join the smartest community of Biya and pay all bills simply by chatting. It is easy and stress free.</p>
-      <button class="btn">
+      <button class="btn" @click="scrollToStart()">
         Get Started
       </button>
     </article>
   </section>
 </template>
+
+<script>
+export default {
+  methods: {
+    scrollToStart () {
+      document.getElementById('start').scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' })
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .bills {

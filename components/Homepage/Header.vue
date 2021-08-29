@@ -13,9 +13,9 @@
           <span v-show="platform === 4" class="platforms-4">Messenger.</span>
         </span>
       </p>
-      <button class="btn">
+      <!-- <button class="btn">
         Get Started
-      </button>
+      </button> -->
     </div>
     <div class="header-image">
       <img src="@/assets/hero-image.png" alt="Biya User">

@@ -1,0 +1,65 @@
+@mixin when-inside($context) {
+  #{$context} & {
+    @content;
+  }
+}
+
+.accordion {
+  margin: 2.4rem auto;
+  max-width: 80rem;
+  &__item {
+    margin-bottom: 0.8rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 32px 64px rgba(41, 43, 53, 0.08), 0 1px 8px rgba(41, 43, 53, 0.04);
+    overflow: hidden;
+    width: 100%;
+    background: white;
+    cursor: pointer;
+    p, li {
+      font-size: 1.6rem;
+      line-height: 170%;
+      letter-spacing: 0.005em;
+    }
+    ul {
+      margin: 1rem 0;
+    }
+    &__header {
+      font-weight: 500;
+      padding: 2.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--primary-color);
+      .icon {
+        width: 0; 
+        height: 0; 
+        border-left: 0.8rem solid transparent;
+        border-right: 0.8rem solid transparent;
+        border-top: 0.8rem solid var(--pink);
+        box-sizing: border-box;
+      }
+      @include when-inside('.active') {
+        span {
+          transform: rotate(180deg) translateY(-40%);
+        }
+      }
+    }
+    &__body {
+      font-weight: normal;
+      border-top: 1px solid #F2F3F7;
+      max-height: 0;
+      visibility: hidden;
+      opacity: 0;
+      padding: 0;
+      color: var(--secondary-color);
+      @include when-inside('.active') {
+        transition: max-height 300ms ease-in-out,
+                    opacity 500ms ease-in-out;
+        max-height: 100%;
+        opacity: 1;
+        visibility: visible;
+        padding: 2.4rem;
+      }
+    }
+  }
+}

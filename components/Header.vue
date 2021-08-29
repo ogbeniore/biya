@@ -3,7 +3,7 @@
     <nuxt-link to="/">
       <img src="@/assets/logo.png" alt="Biya - Easy payments via chat" class="nav__image">
     </nuxt-link>
-    <nuxt-link to="/" class="nav__link">
+    <nuxt-link to="/faq" class="nav__link">
       FAQs
     </nuxt-link>
   </nav>

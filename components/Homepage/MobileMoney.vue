@@ -11,9 +11,9 @@
         <br>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget, donec ut accumsan nibh turpis massa facilisis pellentesque amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget, donec ut accumsan nibh turpis massa facilisis pellentesque amet.
       </p>
-      <button class="btn btn__outline">
+      <!-- <button class="btn btn__outline">
         Get Started
-      </button>
+      </button> -->
     </article>
   </section>
 </template>

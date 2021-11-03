@@ -11,7 +11,20 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Biya lets you do airtime top-up, pay bills and transfer funds easily via Facebook Messenger, Telegram, Slack and Skype.' },
+      { hid: 'keywords', name: 'keywords', content: 'Buy airtime, pay bills, send and receive money via your favourite messaging app!' },
+      { hid: 'og:url', name: 'og:url', content: 'https://biya.com.ng/' },
+      { hid: 'og:title', name: 'og:title', content: 'Biya is the easiest way to buy airtime, pay bills and more!' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Biya' },
+      { hid: 'og:image', name: 'og:image', content: 'http://res.cloudinary.com/pitech/image/upload/v1489243312/thumbs/icon.jpg' },
+      { hid: 'og:description', name: 'og:description', content: 'Biya lets you do airtime top-up, pay bills and transfer funds easily via Facebook Messenger, Telegram, Slack and Skype.' },
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@biyabot' },
+      { hid: 'twitter:url', name: 'twitter:url', content: 'https://biya.com.ng/' },
+      { hid: 'twitter:title', name: 'twitter:title', content: 'Biya is the easiest way to buy airtime, pay bills and more!' },
+      { hid: 'twitter:title', name: 'twitter:title', content: 'Biya is the easiest way to buy airtime, pay bills and more!' },
+      { hid: 'twitter:image', name: 'twitter:image', content: 'http://res.cloudinary.com/pitech/image/upload/v1489243312/thumbs/icon.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

@@ -4,13 +4,13 @@
       <img src="@/assets/mobile-money.png" alt="Woman holding phone">
     </div>
     <article class="mobile-money__text">
-      <h3>You mobile recharge and bills are just one message away.</h3>
-      <p>
+      <h3>Your bills are just one message away.</h3>
+      <!-- <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget, donec ut accumsan nibh turpis massa facilisis pellentesque amet.
         <br>
         <br>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget, donec ut accumsan nibh turpis massa facilisis pellentesque amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget, donec ut accumsan nibh turpis massa facilisis pellentesque amet.
-      </p>
+      </p> -->
       <!-- <button class="btn btn__outline">
         Get Started
       </button> -->

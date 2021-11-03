@@ -2,10 +2,10 @@
   <section class="features">
     <div class="features-container">
       <div class="features__content">
-        <h3>Unique Features</h3>
-        <p>
+        <h3>Features ✨</h3>
+        <!-- <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget, donec ut accumsan nibh turpis massa facilisis pellentesque amet.
-        </p>
+        </p> -->
         <div class="features__grid">
           <article class="features__item">
             <span class="features__item--icon">

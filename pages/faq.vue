@@ -22,7 +22,7 @@ export default {
     questions: [
       {
         question: 'What is Biya ? ',
-        answer: 'Biya is a smart chat bot that helps you buy airtime, transfer funds and pay bills without the need to download any extra apps once you have one of Facebook Messenger, Telegram, Slack or Skype. '
+        answer: 'Biya is a smart chat bot that helps you buy airtime and pay bills without the need to download any extra apps once you have one of Facebook Messenger, Telegram, Slack or Skype. '
       },
       {
         question: 'How does Biya work ? ',

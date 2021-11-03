@@ -31,7 +31,7 @@
       </div>
       <div class="socials-link">
         <a href="mailto:hello@biya.com.ng">hello@biya.com.ng</a> or
-        <a href="tel:+2348132614485">08132614485</a>
+        <a href="tel:+2348051303890">08051303890</a>
       </div>
     </div>
   </section>

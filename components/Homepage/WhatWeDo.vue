@@ -1,8 +1,8 @@
 <template>
   <section class="what-we-do">
     <div class="what-we-do__title">
-      <h3>What Biya Does</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget, donec ut accumsan nibh turpis massa facilisis pellentesque amet.</p>
+      <h3>What does Biya do?</h3>
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget, donec ut accumsan nibh turpis massa facilisis pellentesque amet.</p> -->
     </div>
     <div class="what-we-do__grid">
       <article class="what-we-do__item">
@@ -31,7 +31,7 @@
         </h5>
         <p>Pay your DSTv, GOTv, Smile and Electricity bills and many more.</p>
       </article>
-      <article class="what-we-do__item">
+      <!-- <article class="what-we-do__item">
         <span class="what-we-do__item--icon">
           <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M29.0004 23.4567C29.0004 23.0397 28.6631 22.7024 28.2461 22.7024H2.5695L7.08299 18.1889C7.37735 17.8946 7.37735 17.4224 7.08299 17.128C6.78863 16.8336 6.31643 16.8336 6.02207 17.128L0.226899 22.9232C-0.0674593 23.2175 -0.0674593 23.6897 0.226899 23.9841L6.02207 29.7793C6.16925 29.9264 6.35936 30 6.5556 30C6.75184 30 6.94194 29.9264 7.08912 29.7793C7.38348 29.4849 7.38348 29.0127 7.08912 28.7183L2.57563 24.2049H28.2584C28.6631 24.2049 29.0004 23.8737 29.0004 23.4567Z" fill="#E01E5A" />
@@ -43,7 +43,7 @@
           Transfer Funds
         </h5>
         <p>Transfer money from your bank account to any bank account in Nigeria. <span class="text-pink">Coming soon</span></p>
-      </article>
+      </article> -->
       <article class="what-we-do__item">
         <span class="what-we-do__item--icon green">
           <svg width="26" height="35" viewBox="0 0 26 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,9 +53,9 @@
 
         </span>
         <h5>
-          Tap2Pay
+          Tap2Pay <span class="text-pink">Coming soon</span>
         </h5>
-        <p>Forgot your wallet or your ATM card? Pay with Biya at physical locations.  <span class="text-pink">Coming soon</span>.</p>
+        <p>Forgot your wallet or your ATM card? Pay with Biya at physical locations.</p>
       </article>
     </div>
   </section>
@@ -82,15 +82,22 @@
     letter-spacing: 0.005em;
     margin-bottom: 4rem;
     line-height: 170%;
+    text-align: center;
   }
   &__grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 5.4rem;
     grid-column-gap: 5.4rem;
     justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     &--icon {
       background: #FFEBF5;
       border-radius: 4px;
@@ -135,6 +142,7 @@
   }
 }
 .text-pink {
+  font-size: 1.1rem;
   color: var(--pink);
   font-weight: 500;
 }

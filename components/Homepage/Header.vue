@@ -5,7 +5,7 @@
         Easy payments via chat.
       </h1>
       <p>
-        Biya lets you do airtime top-up, pay bills &  <br> transfer funds easily via
+        Biya lets you do airtime top-up & pay bills <br> easily via
         <span class="platforms">
           <span v-show="platform === 1" class="platforms-1">Browser.</span>
           <span v-show="platform === 2" class="platforms-2">Skype.</span>
